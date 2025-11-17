@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JNTUA Notes Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📘 JNTUA Notes & Materials Portal</h1>
+    <p>Find syllabus, handwritten notes, important questions, and previous papers</p>
+  </header>
+
+  <nav>
+    <select id="regulation">
+      <option value="">Select Regulation</option>
+      <option value="R15">R15</option>
+      <option value="R19">R19</option>
+      <option value="R20">R20</option>
+      <option value="R23">R23</option>
+      <option value="R24">R24</option>
+    </select>
+
+    <select id="branch">
+      <option value="">Select Branch</option>
+      <option value="CSE">CSE</option>
+      <option value="ECE">ECE</option>
+      <option value="EEE">EEE</option>
+      <option value="MECH">MECH</option>
+      <option value="CIVIL">CIVIL</option>
+    </select>
+
+    <select id="year">
+      <option value="">Select Year</option>
+      <option value="1st">1st Year</option>
+      <option value="2nd">2nd Year</option>
+      <option value="3rd">3rd Year</option>
+      <option value="4th">4th Year</option>
+    </select>
+
+    <select id="sem">
+      <option value="">Select Semester</option>
+      <option value="1">1st Sem</option>
+      <option value="2">2nd Sem</option>
+    </select>
+
+    <select id="subject">
+        <option value="">Select Subject</option>
+        <option value="DBMS">DBMS</option>
+        <option value="OS">Operating Systems</option>
+      </select>
+
+      <select id="materialType">
+        <option value="">Select Type of Material</option>
+        <option value="syllabus">Syllabus</option>
+        <option value="materialsPdf">Materials PDF</option>
+        <option value="handwriting">Handwriting Notes</option>
+        <option value="previousPapers">Previous Question Papers</option>
+        <option value="importantQuestions">Important Questions</option>
+      </select>
+
+
+    <button id="searchBtn">Search</button>
+  </nav>
+
+  <main>
+    <section id="materials">
+      <h2>📄 Materials & Notes</h2>
+      <div id="materialsList">Please select options above to view materials.</div>
+    </section>
+
+    
+  </main>
+
+  <footer>
+    <p>Developed by Solution Seekers | © 2025 JNTUA Portal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
