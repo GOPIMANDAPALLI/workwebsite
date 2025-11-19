@@ -1,10 +1,10 @@
 const portalData = {
-  R19: {
+  R15: {
     CSE: {
-      "3rd": {
+      "1st": {
         "1": {
-          "DBMS": {
-            syllabus: "materials/dbms_syllabus.pdf",  // single PDF
+          "Computer programming": {
+            syllabus: "R15syllabus/CSE/1-1/Computer programming.pdf",  // single PDF
             materialsPdf: {  // unit-wise PDFs
               "Unit 1": "materials/dbms_unit1.pdf",
               "Unit 2": "https://megpolice.gov.in/sites/default/files/being-safe-online-ncpcr.pdf",
@@ -39,8 +39,297 @@ const portalData = {
             }
           },
 
-          "OS": {
-            syllabus: "materials/os_syllabus.pdf",
+          "Engineering Graphics": {
+            syllabus: "R15syllabus/CSE/1-1/Engineering Graphics.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Engineering Physics": {
+            syllabus: "R15syllabus/CSE/1-1/Engineering Physics.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Functional English": {
+            syllabus: "R15syllabus/CSE/1-1/Functional English.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Mathematics-I": {
+            syllabus: "R15syllabus/CSE/1-1/Mathematics-I.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          }
+        },
+        "2": { // 2nd Semester
+          "Data structure": {
+            syllabus: "R15syllabus/CSE/1-2/Data structure.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/dbms_unit1.pdf",
+              "Unit 2": "materials/dbms_unit2.pdf",
+              "Unit 3": "materials/dbms_unit3.pdf",
+              "Unit 4": "materials/dbms_unit4.pdf",
+              "Unit 5": "materials/dbms_unit5.pdf",
+              "Unit 6": "materials/dbms_unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/dbms/handwriting/unit1.pdf",
+              "Unit 2": "materials/dbms/handwriting/unit2.pdf",
+              "Unit 3": "materials/dbms/handwriting/unit3.pdf",
+              "Unit 4": "materials/dbms/handwriting/unit4.pdf",
+              "Unit 5": "materials/dbms/handwriting/unit5.pdf",
+              "Unit 6": "materials/dbms/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/dbms/previous/unit1.pdf",
+              "Unit 2": "materials/dbms/previous/unit2.pdf",
+              "Unit 3": "materials/dbms/previous/unit3.pdf",
+              "Unit 4": "materials/dbms/previous/unit4.pdf",
+              "Unit 5": "materials/dbms/previous/unit5.pdf",
+              "Unit 6": "materials/dbms/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/dbms/important/unit1.pdf",
+              "Unit 2": "materials/dbms/important/unit2.pdf",
+              "Unit 3": "materials/dbms/important/unit3.pdf",
+              "Unit 4": "materials/dbms/important/unit4.pdf",
+              "Unit 5": "materials/dbms/important/unit5.pdf",
+              "Unit 6": "materials/dbms/important/unit6.pdf"
+            }
+          },
+
+          "Engineering Chemistry": {
+            syllabus: "R15syllabus/CSE/1-2/Engineering Chemistry.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Environmental studies": {
+            syllabus: "R15syllabus/CSE/1-2/Environmental studies.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Mathematics-II": {
+            syllabus: "R15syllabus/CSE/1-2/Mathematics-II.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "professional communication": {
+            syllabus: "R15syllabus/CSE/1-2/professional communication.pdf",
             materialsPdf: {
               "Unit 1": "materials/os/materials/unit1.pdf",
               "Unit 2": "materials/os/materials/unit2.pdf",
@@ -75,84 +364,448 @@ const portalData = {
             }
           }
         }
+      }
+    },
+
+    ECE: {
+      "1st": {
+        "1": {
+          "Computer": {
+            syllabus: "R15syllabus/CSE/1-1/Computer programming.pdf",  // single PDF
+            materialsPdf: {  // unit-wise PDFs
+              "Unit 1": "materials/dbms_unit1.pdf",
+              "Unit 2": "https://megpolice.gov.in/sites/default/files/being-safe-online-ncpcr.pdf",
+              "Unit 3": "https://megpolice.gov.in/sites/default/files/being-safe-online-ncpcr.pdf",
+              "Unit 4": "https://megpolice.gov.in/sites/default/files/being-safe-online-ncpcr.pdf",
+              "Unit 5": "https://megpolice.gov.in/sites/default/files/being-safe-online-ncpcr.pdf",
+              "Unit 6": "https://megpolice.gov.in/sites/default/files/being-safe-online-ncpcr.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/dbms/handwriting/unit1.pdf",
+              "Unit 2": "materials/dbms/handwriting/unit2.pdf",
+              "Unit 3": "materials/dbms/handwriting/unit3.pdf",
+              "Unit 4": "materials/dbms/handwriting/unit4.pdf",
+              "Unit 5": "materials/dbms/handwriting/unit5.pdf",
+              "Unit 6": "materials/dbms/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/dbms/previous/unit1.pdf",
+              "Unit 2": "materials/dbms/previous/unit2.pdf",
+              "Unit 3": "materials/dbms/previous/unit3.pdf",
+              "Unit 4": "materials/dbms/previous/unit4.pdf",
+              "Unit 5": "materials/dbms/previous/unit5.pdf",
+              "Unit 6": "materials/dbms/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/dbms/important/unit1.pdf",
+              "Unit 2": "materials/dbms/important/unit2.pdf",
+              "Unit 3": "materials/dbms/important/unit3.pdf",
+              "Unit 4": "materials/dbms/important/unit4.pdf",
+              "Unit 5": "materials/dbms/important/unit5.pdf",
+              "Unit 6": "materials/dbms/important/unit6.pdf"
+            }
+          },
+
+          "Engineering Chemistry": {
+            syllabus: "R15syllabus/CSE/1-2/Engineering Chemistry.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Engineering Physics": {
+            syllabus: "R15syllabus/CSE/1-1/Engineering Physics.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Functional English": {
+            syllabus: "R15syllabus/CSE/1-1/Functional English.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          },
+
+          "Mathematics-I": {
+            syllabus: "R15syllabus/CSE/1-1/Mathematics-I.pdf",
+            materialsPdf: {
+              "Unit 1": "materials/os/materials/unit1.pdf",
+              "Unit 2": "materials/os/materials/unit2.pdf",
+              "Unit 3": "materials/os/materials/unit3.pdf",
+              "Unit 4": "materials/os/materials/unit4.pdf",
+              "Unit 5": "materials/os/materials/unit5.pdf",
+              "Unit 6": "materials/os/materials/unit6.pdf"
+            },
+            handwriting: {
+              "Unit 1": "materials/os/handwriting/unit1.pdf",
+              "Unit 2": "materials/os/handwriting/unit2.pdf",
+              "Unit 3": "materials/os/handwriting/unit3.pdf",
+              "Unit 4": "materials/os/handwriting/unit4.pdf",
+              "Unit 5": "materials/os/handwriting/unit5.pdf",
+              "Unit 6": "materials/os/handwriting/unit6.pdf"
+            },
+            previousPapers: {
+              "Unit 1": "materials/os/previous/unit1.pdf",
+              "Unit 2": "materials/os/previous/unit2.pdf",
+              "Unit 3": "materials/os/previous/unit3.pdf",
+              "Unit 4": "materials/os/previous/unit4.pdf",
+              "Unit 5": "materials/os/previous/unit5.pdf",
+              "Unit 6": "materials/os/previous/unit6.pdf"
+            },
+            importantQuestions: {
+              "Unit 1": "materials/os/important/unit1.pdf",
+              "Unit 2": "materials/os/important/unit2.pdf",
+              "Unit 3": "materials/os/important/unit3.pdf",
+              "Unit 4": "materials/os/important/unit4.pdf",
+              "Unit 5": "materials/os/important/unit5.pdf",
+              "Unit 6": "materials/os/important/unit6.pdf"
+            }
+          }
+        }
+
       }
     }
   }
 };
 
 
+// Helper to create demo entries for other regulations (keeps same subjects/filepaths with reg replaced)
+function createRegCopy(reg) {
+  // deep copy R15 but replace first-level file paths strings with reg
+  const copy = JSON.parse(JSON.stringify(portalData.R15));
+  // update file paths: replace "R15" with reg in all string values
+  function replaceStrings(obj) {
+    if (!obj || typeof obj !== "object") return;
+    Object.keys(obj).forEach(k=>{
+      const v = obj[k];
+      if (typeof v === "string") {
+        obj[k] = v.replace(/R15/g, reg);
+      } else if (typeof v === "object") {
+        replaceStrings(v);
+      }
+    });
+  }
+  replaceStrings(copy);
+  return copy;
+}
 
-// Section Navigation
-function showHome() {
-  document.getElementById("homeSection").style.display = "block";
-  document.getElementById("aboutSection").style.display = "none";
-  document.getElementById("materialsSection").style.display = "none";
-}
-function showAbout() {
-  document.getElementById("homeSection").style.display = "none";
-  document.getElementById("aboutSection").style.display = "block";
-  document.getElementById("materialsSection").style.display = "none";
-}
-function showMaterials() {
-  document.getElementById("homeSection").style.display = "none";
-  document.getElementById("aboutSection").style.display = "none";
-  document.getElementById("materialsSection").style.display = "block";
-}
-
-// Material Search Logic
+// -----------------------------------------------------
+// DOM references
+// -----------------------------------------------------
 const regulationSelect = document.getElementById("regulation");
 const branchSelect = document.getElementById("branch");
 const yearSelect = document.getElementById("year");
 const semSelect = document.getElementById("sem");
-const subjectSelect = document.getElementById("subject");
 const materialTypeSelect = document.getElementById("materialType");
-const listDiv = document.getElementById("materialsList");
+const subjectSelect = document.getElementById("subject");
+const materialsListDiv = document.getElementById("materialsList");
+const searchBtn = document.getElementById("searchBtn");
 
-document.getElementById("searchBtn").addEventListener("click", () => {
+// -----------------------------------------------------
+// Populate branch dropdown when regulation changes
+// -----------------------------------------------------
+function populateBranches() {
+  const reg = regulationSelect.value;
+  branchSelect.innerHTML = '<option value="">Select Branch</option>';
+  if (reg && portalData[reg]) {
+    Object.keys(portalData[reg]).forEach(branch => {
+      const opt = document.createElement("option");
+      opt.value = branch;
+      opt.textContent = branch;
+      branchSelect.appendChild(opt);
+    });
+  }
+  // reset subject and materials
+  subjectSelect.innerHTML = "<option value=''>Select Subject (auto-filled)</option>";
+  materialsListDiv.textContent = "Please select options above and click Search.";
+}
+regulationSelect.addEventListener("change", populateBranches);
+
+// -----------------------------------------------------
+// Update subject dropdown based on reg/branch/year/sem/materialType
+// -----------------------------------------------------
+function updateSubjectsAuto() {
   const reg = regulationSelect.value;
   const branch = branchSelect.value;
   const year = yearSelect.value;
   const sem = semSelect.value;
-  const subject = subjectSelect.value;
-  const type = materialTypeSelect.value;
+  const type = materialTypeSelect.value; // may be empty
 
-  listDiv.innerHTML = "";
+  subjectSelect.innerHTML = "<option value=''>Select Subject (auto-filled)</option>";
 
-  if (!(reg && branch && year && sem && subject && type)) {
-    listDiv.textContent = "Please select all options.";
+  if (!reg || !branch || !year || !sem) {
+    // nothing to show until these are selected
     return;
   }
 
-  const subjectData = portalData[reg]?.[branch]?.[year]?.[sem]?.[subject];
-  if (!subjectData) {
-    listDiv.textContent = "No data found for this subject.";
-    return;
-  }
+  const semData = portalData?.[reg]?.[branch]?.[year]?.[sem];
+  if (!semData) return;
 
-  if (type === "syllabus") {
-    const link = document.createElement("a");
-    link.href = subjectData[type];
-    link.download = `${subject}_${type}.pdf`;
-    link.textContent = `⬇ ${subject} - ${type}`;
-    link.style.display = "block";
-    listDiv.appendChild(link);
-  } else {
-    const typeData = subjectData[type];
-    if (typeData) {
-      const header = document.createElement("h3");
-      header.textContent = `${subject} - ${type} (Unit-wise Downloads)`;
-      listDiv.appendChild(header);
-
-      for (const [unit, linkUrl] of Object.entries(typeData)) {
-        const link = document.createElement("a");
-        link.href = linkUrl;
-        link.download = `${subject}_${type}_${unit}.pdf`;
-        link.textContent = `⬇ ${unit}`;
-        link.style.display = "block";
-        listDiv.appendChild(link);
+  // semData is object where keys are subject names
+  Object.entries(semData).forEach(([subName, files]) => {
+    // ensure we only add if files object exists and if selected material type exists (or if no type selected)
+    if (typeof files === "object") {
+      if (!type || files[type]) {
+        const opt = document.createElement("option");
+        opt.value = subName;
+        opt.textContent = subName;
+        subjectSelect.appendChild(opt);
       }
-    } else {
-      listDiv.textContent = `No ${type} files found for this subject.`;
-    }
-  }
+    }
+  });
+}
+
+// Attach listeners to update subject list when any relevant select changes
+[branchSelect, yearSelect, semSelect, materialTypeSelect].forEach(el =>
+  el.addEventListener("change", updateSubjectsAuto)
+);
+
+// If regulation changes, branches will change, then user picks branch -> trigger updateSubjectsAuto on branch change
+branchSelect.addEventListener("change", () => {
+  // ensure subject list updates based on new branch/year/sem/type
+  updateSubjectsAuto();
 });
+
+// -----------------------------------------------------
+// Utility: create a download anchor element
+// -----------------------------------------------------
+function makeDownloadLink(url, text) {
+  const a = document.createElement("a");
+  a.href = url;
+  a.textContent = "⬇ " + text;
+  a.style.display = "block";
+  a.style.margin = "6px 0";
+  
+  a.rel = "noopener";
+  // If same-origin relative path, set download attribute for direct download
+  if (!/^https?:\/\//i.test(url)) {
+    // Only set download for same-origin / relative resources
+    a.setAttribute("download", "");
+  }
+  return a;
+}
+
+// -----------------------------------------------------
+// Show downloads for a subject
+// -----------------------------------------------------
+function showDownloadsForSubject(reg, branch, year, sem, subjectName) {
+  materialsListDiv.innerHTML = "";
+  const subj = portalData?.[reg]?.[branch]?.[year]?.[sem]?.[subjectName];
+  if (!subj) {
+    materialsListDiv.textContent = "No data found for this subject.";
+    return;
+  }
+
+  // If syllabus (single file)
+  if (subj.syllabus) {
+    materialsListDiv.appendChild(makeDownloadLink(subj.syllabus, `${subjectName} - syllabus`));
+  }
+
+  // For unit-wise categories
+  ["materialsPdf", "handwriting", "previousPapers", "importantQuestions"].forEach(cat => {
+    if (subj[cat] && typeof subj[cat] === "object") {
+      const h = document.createElement("h3");
+      h.textContent = `${subjectName} — ${cat}`;
+      materialsListDiv.appendChild(h);
+
+      Object.entries(subj[cat]).forEach(([unit, url]) => {
+        materialsListDiv.appendChild(makeDownloadLink(url, `${unit}`));
+      });
+    }
+  });
+}
+
+// -----------------------------------------------------
+// When search button clicked
+// - If subject selected → show downloads for that subject
+// - If subject NOT selected → list matched subjects as clickable items
+// -----------------------------------------------------
+searchBtn.addEventListener("click", () => {
+  const reg = regulationSelect.value;
+  const branch = branchSelect.value;
+  const year = yearSelect.value;
+  const sem = semSelect.value;
+  const type = materialTypeSelect.value;
+  const subject = subjectSelect.value;
+
+  materialsListDiv.innerHTML = "";
+
+  if (!reg || !branch || !year || !sem || !type) {
+    materialsListDiv.textContent = "Please select regulation, branch, year, sem and material type.";
+    return;
+  }
+
+  const semData = portalData?.[reg]?.[branch]?.[year]?.[sem];
+  if (!semData) {
+    materialsListDiv.textContent = "No subjects found for this selection.";
+    return;
+  }
+
+  // ✔ If specific subject selected → Show only that subject’s materials
+  if (subject) {
+    const subjObj = semData[subject];
+    if (!subjObj) {
+      materialsListDiv.textContent = "Selected subject not found.";
+      return;
+    }
+
+    // Syllabus (single file)
+    if (type === "syllabus") {
+      if (subjObj.syllabus) {
+        materialsListDiv.appendChild(makeDownloadLink(subjObj.syllabus, `${subject} - syllabus`));
+      } else {
+        materialsListDiv.textContent = "Syllabus not available for this subject.";
+      }
+      return;
+    }
+
+    // Other categories (unit-wise)
+    const cat = subjObj[type];
+    if (cat && typeof cat === "object") {
+      const header = document.createElement("h3");
+      header.textContent =`${subject} — ${type}`;
+      materialsListDiv.appendChild(header);
+
+      Object.entries(cat).forEach(([unit, url]) => {
+        materialsListDiv.appendChild(makeDownloadLink(url, unit));
+      });
+      return;
+    }
+
+    if (typeof cat === "string") {
+      materialsListDiv.appendChild(makeDownloadLink(cat, `${subject} - ${type}`));
+      return;
+    }
+
+    materialsListDiv.textContent = `No ${type} available for this subject.`;
+    return;
+  }
+
+  // ✔ No subject selected → Show all subjects that match material type
+  const matched = Object.entries(semData).filter(([_, files]) => {
+    if (!files) return false;
+    if (type === "syllabus") return !!files.syllabus;
+    return !!files[type];
+  });
+
+  if (matched.length === 0) {
+    materialsListDiv.textContent = "No subjects matched the selected material type.";
+    return;
+  }
+
+  const info = document.createElement("p");
+  info.textContent = "Matched subjects (click a subject to view downloads):";
+  materialsListDiv.appendChild(info);
+
+  matched.forEach(([subName]) => {
+    const btn = document.createElement("button");
+    btn.textContent = subName;
+    btn.style.display = "block";
+    btn.style.margin = "8px 0";
+    btn.addEventListener("click", () => {
+      showDownloadsForSubject(reg, branch, year, sem, subName);
+    });
+    materialsListDiv.appendChild(btn);
+  });
+});
+
+// -----------------------------------------------------
+// Keep subjects selected after download / when user returns
+// No page reload behavior is required; downloads open in new tab.
+// But we also want the subject dropdown to be pre-populated when page loads if selects already have values.
+// -----------------------------------------------------
+function initAutoPopulateOnLoad() {
+  populateBranches();       // populate branches if reg already preselected
+  updateSubjectsAuto();     // populate subject options if branch/year/sem already selected
+}
+
+// run on load
+window.addEventListener("load", initAutoPopulateOnLoad);
